@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    padding: 2rem 9%;
+    top: 0; right: 0; left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.header .logo{
+    font-size: 3rem;
+    color: silver;
+    font-weight: 600;
+}
+.navbar .menu {
+    justify-self: end;
+    padding-right: 6%;
+    font-size: 3rem;
+    color: black;
+    
+}
+.home{
+    background-color: #8b8279;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+.home .image1{
+    flex: 2 2 45rem;
+}
+.home .image1 img{
+    width: 100%;}
+
+.content{
+    padding-left: 10%;
+    padding-right: 1rem;
+    flex: 1 1 45rem;
+}
+ .content .title{
+        font-size: 6rem;
+        color: #fff;
+        line-height: 1.8;
+        font-weight: bold;
+    }
+.content p{
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+.content .small-text {
+    color: #cabfb5;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+.small-text a{
+    color:  #cabfb5;
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+.button1{
+    padding: 1.5rem 5rem;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    background-color:#332e29;
+    margin-bottom: 2rem;
+}
+.button1:hover{
+    background-color:#fff ;
+    color:#332e29;
+}
+.section{
+    max-width: 100%;
+    background-color: #8b8279;
+}
+
+.dog-training{
+    max-width: 100%;
+    background-color: #8b8279;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    max-width: 100%;
+    justify-items: center;
+
+}
+.dog-training .left{
+    padding-left: 10%;
+    padding-right: 1rem;
+    flex: 1 1 45rem;
+}
+.left .naslov{
+    font-size: 6rem;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: bold;
+    position: relative;
+}
+.left .big-text{
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+.dog-training .right{
+    flex: 1 1 45rem;
+    
+}
+.left .small-text {
+    color: #cabfb5;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+.small-text a{
+    color:  #cabfb5;
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+
+.right img{
+    border-radius: 50%;
+    max-width: 70%;
+    height: auto;
+}
+.right .img1{
+    margin-top: 3rem;
+    justify-self: center;
+}
+
+
+
+
+.section3{
+    background-color: #cabfb5;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8rem 20rem;
+    justify-items: center;
+}
+.container{
+    background-color: #325389;
+    flex: 1;
+    height: 80rem;
+    overflow: hidden;
+}
+.container2{
+    background-color: #fff;
+    flex: 1;
+    height: 80rem;
+    justify-self: center;
+    padding: 3rem;
+}
+.container2 h1{
+    font-size: 5rem;
+    color:gray;
+    text-align: left;
+    padding: 3rem;
+    margin-top: 7rem;
+
+}
+.container2 img{
+    border-radius: 50%;
+    width: 60%;
+    margin-left: 3rem;
+}
+
+.section3 .container img{
+    width: 90%;
+    height: auto;
+    padding: 3rem 1rem 2rem 5rem;
+
+}
+.section3 .container p{
+    font-size: 1.7rem;
+    color: #fff;
+    line-height: 1.8;
+    text-align: end;
+    padding: 3rem;
+}
+.container p a{
+    color: #fff;
+}
+
+.wrapper2{
+    max-width: 100%;
+    background-color:  #e0dad3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-bottom: 7rem;
+    justify-content: center;
+    padding: 8rem;
+    
+}
+.textbox{
+    flex: 1;
+    padding: 5rem;
+
+}
+.textbox .naslov{
+    font-size: 5rem;
+    color: #332e29;
+    line-height: 1.8;
+    font-weight: 100;
+}
+.text5{
+    margin-bottom: 3rem;
+}
+.imagebox{
+    flex: 1;
+
+}
+.textbox p{
+    color: #332e29;
+    line-height: 1.8;
+    font-size: 1.6rem;
+}
+
+.imagebox img{
+    width: 40%;
+    border-radius: 50%;
+}
+.imagebox .slika1 {
+  padding: 2rem;
+}
+.imagebox .slika3{
+    border:5px solid #325389;
+    width: 25%;
+}
+
+.section4{
+    width: 100%;
+    height: 80rem;
+}
+.gray{
+    background-color: #e0dad3;
+    width: 100%;
+    height: 40rem;
+}
+.white{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 40rem;
+}
+.section4 img{
+    position: relative;
+    top: -30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 84px 84px 0px 12px #325389;
+  
+}
+.textar{
+    position: relative;
+    z-index: 7;
+    top: -40%;
+    left: 10%;
+    background-color: #fff;
+    width: 60%;
+    height: 20rem;
+    padding: 3rem;
+}
+.naslov{
+    font-size: 5rem;
+    color: gray;
+    padding: 2rem;
+}
+.textar p{
+    font-size: 1.7rem;
+    line-height: 1.8;
+    letter-spacing: 2;
+    padding: 1rem;
+    background-color: #fff;
+    
+}
+.textar .small-text{
+    color: gray;
+    margin-bottom: 2rem;
+}
+.textar .button1{
+    background-color: #8b8279;
+}
+
+.section5{
+    background-color: #8b8279;
+    width: 100%;
+    height: auto;
+    margin-top: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+
+}
+.section5 img{
+    width: 30rem;
+    border-radius: 50%;
+    box-shadow:30px -50px 3px #cabfb5;
+}
+.img2{
+    flex: 1;;
+
+}
+.section5 .naslov{
+    color: #fff;
+}
+.paragraph{
+    flex: 1;
+    margin-left: 9%;
+    padding: 2rem;
+}
+.paragraph p{
+    font-size: 1.7rem;
+    line-height: 1.8;
+    letter-spacing: 2;
+    padding: 1rem;
+    color: #fff;
+    
+}
+.paragraph .small-text{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.section6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem 6% 3rem 6%;
+
+}
+.form-section{
+    flex: 1;
+  }
+.form-section h1{
+    font-size: 3.5rem;
+    color: #325389;
+    text-align: center;
+    padding: 1rem;}
+.cont{
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: block;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+}
+form{
+    font-size: 1.5rem;
+}
+textarea {
+    height: 150px;
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+  }
+.location-section{
+    background-color: #cabfb5;
+    flex: 1;
+    padding: 5rem;
+  }
+  .location-section h1{
+    font-size: 3.5rem;
+    color: #325389;
+    text-align: center;
+    padding: 1rem;
+  }
+  .location-section p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+
+
+  }
+
+
+input[type=submit] {
+    background-color: #325389;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    width: 80%;
+  }
+
+
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+    .header{
+        padding: 2rem;
+    }
+    .navbar .menu{
+        padding-right: 1rem;}
+}
+@media screen and (max-width: 700px) {
+    .section3 {   
+      flex-direction: column;
+      padding: 0rem;
+    }
+    .wrapper2{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .dog-training img{
+        padding: 2rem;
+    }
+    .section4 .textarea{
+        left: 5%;
+        width: min-content;
+    }
+    .section4 .textarea .button1{
+        display: none;
+    }
+    .section5 img{
+        width: 40%;
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 600px) {
+     input[type=text] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
